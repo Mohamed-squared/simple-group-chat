@@ -1,4 +1,4 @@
-const apiUrl = "https://discord.com/oauth2/authorize?client_id=1312760383257182238&permissions=100352&integration_type=0&scope=bot"; // Replace with your API URL
+const apiUrl = "https://discord.com/oauth2/authorize?client_id=1312760383257182238&permissions=8&integration_type=0&scope=bot"; // Replace with your API URL
 
 document.getElementById("sendMessage").addEventListener("click", () => {
   const username = document.getElementById("username").value.trim();
